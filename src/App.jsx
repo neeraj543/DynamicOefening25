@@ -1,15 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import MenuProduct from "./components/MenuProduct.jsx";
 import './App.css'
+import {PRODUCTS_DATA} from "./data/data.js";
+
 
 function App() {
+    return (
+        <div style={{ padding: "16px" }}>
+            <h1>Menu</h1>
 
-  return (
-    <>
-        <p> Hey </p>
-    </>
-  )
+            {PRODUCTS_DATA.map(p => (
+                <MenuProduct key = {p.id} product={p} />
+            ))}
+        </div>
+    );
 }
+
 
 export default App
