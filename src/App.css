@@ -29,3 +29,10 @@ body {
   color: rgb(128, 128, 128);
   margin-left: 6px;
 }
+
+
+.product-note {
+  font-size: 0.85rem;
+  color: #888;
+  margin-top: 2px;
+}
