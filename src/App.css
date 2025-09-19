@@ -2,37 +2,3 @@ body {
   padding: 0 2em;
 }
 
-.product {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border: 1px solid #e5e5e5;
-  padding: 8px 12px;
-  border-radius: 6px;
-  margin-bottom: 6px;
-}
-
-.product-name {
-  margin: 0;
-  font-size: 1rem;
-  font-weight: 500;
-}
-
-.product-price {
-  margin: 0;
-  font-size: 0.9rem;
-  color: #555;
-}
-
-.product-size {
-  font-size: 0.8rem;
-  color: rgb(128, 128, 128);
-  margin-left: 6px;
-}
-
-
-.product-note {
-  font-size: 0.85rem;
-  color: #888;
-  margin-top: 2px;
-}
